@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,600;1,800&display=swap");
+
+.body {
+  margin: -7px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(120deg, #0bfabd, #780afa);
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 70px;
+  color: #fff !important;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+.users,
+.posts,
+.todos,
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.user,
+.post,
+.todo,
+.album {
+  width: 330px;
+  margin-bottom: 1rem !important;
+  background: #fff;
+  padding: 16px;
+  border-radius: 25px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.user:hover,
+.post:hover,
+.todo:hover,
+.album:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: chartreuse;
+}
+
+h5.title {
+  font-size: 1.25rem;
+}
+
+h6.title {
+  font-size: 1rem;
+}
+
+p.subtitle {
+  font-size: 20px;
+  color: red;
+}
+
+.btns {
+  text-align: center;
+}
+
+.btn_1 {
+  text-align: center;
+  width: 75px;
+  cursor: pointer;
+  padding: 6px 10px;
+  border: none;
+  margin-right: 30px;
+  background-color: #0dcaf0;
+  color: white;
+  font-size: 20px;
+}
+
+.post:hover,
+.todo:hover,
+.album:hover {
+  cursor: pointer;
+}
+
+h2 > span,
+p > span {
+  font-family: "Bungee Spice", sans-serif;
+}
